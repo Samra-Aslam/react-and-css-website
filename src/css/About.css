@@ -1,0 +1,35 @@
+.About{
+    margin-top: 10px;
+    background-image: linear-gradient(90deg, rgba(190,106,27,0.9) 0%, rgba(9,113,121,0.9) 39%, rgba(255,200,0,0.9) 100%),url(../images/food bannerr.jpg);
+    height: 95vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 15px;
+}.text{
+    width:95%;
+    height:auto;
+    border: 2px solid linear-gradient(90deg, rgba(190,106,27,1) 0%, rgba(9,113,121,1) 39%, rgba(255,200,0,1) 100%);
+    padding: 40px 10px;
+    box-shadow: 2px 2px 20px rgb(61, 60, 60);
+    font-size: 1.3em;
+    line-height: 1.5em;
+    white-space: 1.5em;
+    overflow:auto;
+}a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 3px;
+}@media(max-width:720px){
+    .About{
+        margin-top: 8px;
+        padding: 6px;
+    }.text{
+        
+        font-size: 1.1em;
+        width: 98%;
+        padding: 10px 3px;
+    }
+}

@@ -1,0 +1,120 @@
+.Manu{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70%;
+    background-image: linear-gradient(90deg, rgba(190,106,27,0.9) 0%, rgba(9,113,121,0.9) 39%, rgba(255,200,0,0.9) 100%),url(../images/food bannerr.jpg);
+}
+.h3{
+    color:orange;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.img1{
+    height:200px;
+    width:  300px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-image:url(../images/chees pizza.jpg);
+      
+}.Container1{
+    width: 98%;
+    height:auto;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3 ,minmax(250px, 1fr));
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    row-gap: 20px;
+    column-gap: 8px;
+}.item{
+    height:320px;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    background-color: black;
+    
+    box-sizing: border-box;
+}h3{
+    margin-bottom: 5px;
+}.cartbtn{
+    width: 95%;
+    border-radius: 12px;
+    background-color: orange;
+    border: 2px solid orange;
+    padding: 7px;
+    margin-top: 5px;
+
+
+}.name{
+    text-align: center;
+}.cart{
+    text-align: center;
+}
+.img2{
+    height:200px;
+    width:  300px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    background-image:url(../images/chicken seekh kababb.jpg);
+      
+}.img3{
+    height:200px;
+    width:  300px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    background-image:url(../images/fish biryanii.jpg);
+      
+}.img4{
+    height:200px;
+    width:  300px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    background-image:url(../images/french pastriess.jpg);
+      
+}.img5{
+    height:200px;
+    width:  300px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    background-image:url(../images/fries and burger.jpg);
+      
+}
+.img6{
+    height:200px;
+    width:  300px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    background-image:url(../images/vanila chocolet milkshake.jfif);
+      
+}@media(max-width:1000px){
+    .Container1{
+        grid-template-columns: repeat(2,minmax(250px, 1fr));
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+}@media(max-width:650px){
+    .Container1{
+        grid-template-columns: repeat(1,minmax(250px, 1fr));
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+}

@@ -1,0 +1,42 @@
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6px;
+    border-bottom: 0.2px solid rgb(172, 154, 154);
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+}.NavList ul{
+    text-decoration: none;
+    display: flex;
+    justify-content:center;
+    
+}.NavList ul li a{
+    text-decoration: none;
+    padding: 10px 40px;
+    list-style: none;
+    color: rgb(247, 242, 241);
+    border-left: 1px solid gray;
+}.NavList ul li {
+    list-style:none ;
+}
+span{
+    color: green;
+    padding-left: 3px;
+    text-transform: uppercase;
+}ul li a:hover{
+   color: orange;
+    
+}
+@media(max-width:600px){
+    .NavList ul li a{
+        padding: 10px 15px;
+    }
+}
